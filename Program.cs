@@ -7,6 +7,11 @@
             SayaMusicTrack track = new SayaMusicTrack("Bunga Terakhir");
             track.IncreasePlayCount(500);
             track.PrintTrackDetails();
+            for (int i = 0; i < 300; i++)
+            {
+                track.IncreasePlayCount(10000000);
+            }
+            track.PrintTrackDetails();
         }
     }
 }
