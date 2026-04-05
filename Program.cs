@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            SayaMusicTrack track = new SayaMusicTrack("Bunga Terakhir");
+            track.IncreasePlayCount(500);
+            track.PrintTrackDetails();
         }
     }
 }
